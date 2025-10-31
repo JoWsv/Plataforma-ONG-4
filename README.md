@@ -1,5 +1,10 @@
 # Plataforma-ONG-4
-ONG Águas Vivas 
+
+Este projeto foi desenvolvido como atividade do curso de Análise e Desenvolvimento de Sistemas.
+O site representa uma ONG fictícia dedicada à conscientização ambiental e à proteção de animais marinhos.
+Foi criado utilizando apenas HTML, com foco em estruturação semântica e organização de conteúdo.
+
+**ONG Águas Vivas** 
 
 Sobre o Projeto
 A ONG Águas Vivas é uma organização dedicada à preservação dos oceanos e da vida marinha.  
