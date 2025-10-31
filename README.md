@@ -1,36 +1,43 @@
 # Plataforma-ONG-4
 
-Este projeto foi desenvolvido como atividade do curso de Análise e Desenvolvimento de Sistemas.
-O site representa uma ONG fictícia dedicada à conscientização ambiental e à proteção de animais marinhos.
-Foi criado utilizando apenas HTML, com foco em estruturação semântica e organização de conteúdo.
+ONG Águas Vivas
 
-**ONG Águas Vivas** 
+##Descrição do Projeto
 
-Sobre o Projeto
-A ONG Águas Vivas é uma organização dedicada à preservação dos oceanos e da vida marinha.  
-Este site institucional tem o objetivo de divulgar os projetos da ONG, recrutar voluntários e incentivar ações sustentáveis em prol do meio ambiente.
+A ONG Águas Vivas é uma organização dedicada à proteção dos oceanos, preservação da vida marinha e educação ambiental.
+Este site foi desenvolvido como parte de um projeto acadêmico, com foco em acessibilidade digital (WCAG 2.1 Nível AA), boas práticas de versionamento (GitFlow) e otimização para produção.
 
-- SPA Web SPA institucional sobre proteção dos oceanos e vida marinha. Front-end moderno, acessível e otimizado para produção. 
-Instalação e uso
- 1. Clone este repositório 
-2. Abra o index.html em seu navegador
- 3. Navegue pelas rotas sem recarregar a página 
+##Objetivos Principais
 
-Scripts e build 
-- CSS e JS minificados disponíveis em /dist
- - Imagens otimizadas em /images ## Controle de versão 
-- GitFlow: main, develop, feature/, release/
- - Commits semânticos e releases documentadas 
+Implementar navegação acessível e inclusiva (teclado, leitores de tela, alto contraste);
+Aplicar versionamento semântico com GitFlow no GitHub;
+Garantir otimização de desempenho para o ambiente de produção;
+Divulgar projetos e ações da ONG Águas Vivas de forma clara e intuitiva.
 
-Acessibilidade 
-- Estrutura semântica HTML5
- - Contraste mínimo garantido (4.5:1) 
-- Navegação por teclado
- – ARIA aplicado e modo alto contraste/manual e escuro ## Produção
- - CSS/JS/HTML minificados
- - Imagens comprimidas 
+##Tecnologias Utilizadas
 
-Como contribuir 
-Abra issues ou pull requests conforme instruções do GitHub. 
+HTML5 — Estrutura semântica do site
+CSS3 — Estilização responsiva e acessível
+JavaScript (ES6) — Funcionalidades de acessibilidade (modo escuro, alto contraste, etc.)
+Git e GitHub — Controle de versão com estratégia GitFlow
+WCAG 2.1 AA — Diretrizes de acessibilidade aplicadas
 
-Licença MIT
+##Acessibilidade Implementada
+
+O projeto segue as recomendações da WCAG 2.1 Nível AA, com:
+
+Navegação por teclado funcional (tab, enter, shift + tab)
+Elementos com rótulos descritivos (aria-label)
+Estrutura semântica correta (header, nav, main, section, footer)
+Contraste mínimo de 4.5:1 entre texto e fundo
+Versão de alto contraste e modo escuro acessível
+Compatibilidade com leitores de tela
+Link de “Pular para o conteúdo principal”
+
+##Otimização para Produção
+
+Minificação de CSS, JavaScript e HTML
+
+Compressão de imagens para carregamento rápido
+
+Uso de meta tags para melhor SEO e desempenho mobile
