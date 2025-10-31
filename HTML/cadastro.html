@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Águas Vivas | Cadastro</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+ <header>
+  <h1 style="display: flex; align-items: center;">
+      <img src="imagens/Logoaguaviva.jpg" alt="Logo Águas Vivas" style="width: 80px; height: auto; margin-right: 15px;">
+      ONG Águas Vivas
+    </h1>
+  </header>
+
+  <nav>
+    <h3><a href="index.html">Página Inicial</a> | <a href="projetos.html">Projetos</a> | <a href="cadastro.html">Cadastro</a></h3>
+  </nav>
+
+  <h1>Cadastro de Voluntário</h1>
+
+  <main>
+    <img src="imagens/Limpeza.jpg" alt="Voluntários em praia fazendo limpeza">
+    <h2>Faça parte da proteção dos oceanos com a ONG Águas Vivas!</h2>
+    <p>Preencha o formulário abaixo para se cadastrar como voluntário e ajudar na nossa missão de conservar os ecossistemas marinhos.</p>
+
+    <form>
+      <fieldset style="border-radius: 10px; border: 2px solid #3aafa9; padding: 20px;">
+        <legend>Informações Pessoais</legend>
+
+        <p>
+          <label for="nome">Nome Completo:</label> <input type="text" id="nome" name="nome" required autocomplete="name">
+
+          <label for="email">E-mail:</label> <input type="email" id="email" name="email" required autocomplete="email">
+        </p>
+
+        <p>
+          <label for="cpf">CPF:</label> 
+          <input
+            type="text"
+            id="cpf"
+            name="cpf"
+            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+            placeholder="000.000.000-00"
+            title="Digite o CPF no formato 000.000.000-00"
+            inputmode="numeric"
+            maxlength="14"
+            required
+          >
+
+          <label for="telefone">Telefone:</label>
+          <input
+            type="tel"
+            id="telefone"
+            name="telefone"
+            pattern="\(\d{2}\)\s\d{4,5}-\d{4}"
+            placeholder="(00) 00000-0000"
+            title="Digite o telefone no formato (00) 00000-0000 ou (00) 0000-0000"
+            inputmode="tel"
+            maxlength="15"
+            required
+          >
+        </p>
+
+        <p>
+          <label for="nasc">Data de Nascimento:</label>
+          <input type="date" id="nasc" name="nasc" required max="2025-12-31">
+
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" name="endereco" required autocomplete="address-line1">
+        </p>
+
+        <p>
+          <label for="cep">CEP:</label>
+          <input
+            type="text"
+            id="cep"
+            name="cep"
+            pattern="\d{5}-\d{3}"
+            placeholder="00000-000"
+            title="Digite o CEP no formato 00000-000"
+            inputmode="numeric"
+            maxlength="9"
+            required
+          >
+        
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" name="cidade" required autocomplete="address-level2">
+
+          <label for="estado">Estado:</label>
+          <input type="text" id="estado" name="estado" required autocomplete="address-level1" maxlength="2" pattern="[A-Za-z]{2}" title="Digite a sigla do estado com 2 letras">
+        </p>
+      </fieldset>
+
+      <p>
+        <button type="submit" class="botao">Enviar Cadastro</button>
+      </p>
+    </form>
+  </main>
+
+  <footer>
+    <p>© ONG Águas Vivas 2025. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

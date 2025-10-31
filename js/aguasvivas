@@ -1,0 +1,32 @@
+Plataforma-ONG/
+│
+├── HTML
+│   ├── imagens/
+│   │   
+│   │
+│   ├── index.html
+│   ├── projetos.html
+│   ├── cadastro.html
+│   └── doeagora.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   ├── app.js
+│   ├── router.js
+│   ├── views.js
+│   ├── validators.js
+│   ├── storage.js
+│   └── templates.js
+│
+├── imagens/
+│   ├── Logoaguaviva.jpg
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├──
+│   ├── CoraisEPeixes.jpg
+│   └── .jpg
+│
+└── 
