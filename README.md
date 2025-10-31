@@ -1,2 +1,27 @@
 # Plataforma-ONG-4
-# ONG Águas Vivas - SPA Web  SPA institucional sobre proteção dos oceanos e vida marinha.   Front-end moderno, acessível e otimizado para produção.  ## Instalação e uso 1. Clone este repositório 2. Abra o `index.html` em seu navegador 3. Navegue pelas rotas sem recarregar a página  ## Scripts e build - CSS e JS minificados disponíveis em /dist - Imagens otimizadas em /images  ## Controle de versão - GitFlow: main, develop, feature/*, release/* - Commits semânticos e releases documentadas  ## Acessibilidade - Estrutura semântica HTML5 - Contraste mínimo garantido (4.5:1) - Navegação por teclado - ARIA aplicado e modo alto contraste/manual e escuro  ## Produção - CSS/JS/HTML minificados - Imagens comprimidas  ## Como contribuir Abra issues ou pull requests conforme instruções do GitHub.  ## Licença MIT
+ONG Águas Vivas 
+
+- SPA Web SPA institucional sobre proteção dos oceanos e vida marinha. Front-end moderno, acessível e otimizado para produção. 
+## Instalação e uso
+ 1. Clone este repositório 
+2. Abra o index.html em seu navegador
+ 3. Navegue pelas rotas sem recarregar a página 
+
+## Scripts e build 
+- CSS e JS minificados disponíveis em /dist
+ - Imagens otimizadas em /images ## Controle de versão 
+- GitFlow: main, develop, feature/, release/
+ - Commits semânticos e releases documentadas 
+
+## Acessibilidade 
+- Estrutura semântica HTML5
+ - Contraste mínimo garantido (4.5:1) 
+- Navegação por teclado
+ – ARIA aplicado e modo alto contraste/manual e escuro ## Produção
+ - CSS/JS/HTML minificados
+ - Imagens comprimidas 
+
+## Como contribuir 
+Abra issues ou pull requests conforme instruções do GitHub. 
+
+## Licença MIT
